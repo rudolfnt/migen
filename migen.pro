@@ -18,3 +18,5 @@ SOURCES += main.cpp\
 HEADERS  += migenmainwindow.h
 
 FORMS    += migenmainwindow.ui
+
+CONFIG += c++11
