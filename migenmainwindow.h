@@ -2,10 +2,14 @@
 #define MIGENMAINWINDOW_H
 
 #include <QMainWindow>
+#include "centralwidget.h"
 
 namespace Ui {
 class MIGenMainWindow;
 }
+
+class QAction;
+class QMenu;
 
 class MIGenMainWindow : public QMainWindow
 {
@@ -16,7 +20,17 @@ public:
     ~MIGenMainWindow();
 
 private:
+    void init();
+    void createActions();
+
+private slots:
+    void openDataFile();
+    void settings();
+    void about();
+
+private:
     Ui::MIGenMainWindow *ui;
+    CentralWidget * centralWidget;
 };
 
 #endif // MIGENMAINWINDOW_H

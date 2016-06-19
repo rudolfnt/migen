@@ -13,10 +13,13 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        migenmainwindow.cpp
+        migenmainwindow.cpp \
+    centralwidget.cpp
 
-HEADERS  += migenmainwindow.h
+HEADERS  += migenmainwindow.h \
+    centralwidget.h
 
-FORMS    += migenmainwindow.ui
+FORMS    += migenmainwindow.ui \
+    centralwidget.ui
 
 CONFIG += c++11
