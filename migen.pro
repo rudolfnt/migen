@@ -14,12 +14,21 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         migenmainwindow.cpp \
-    centralwidget.cpp
+    centralwidget.cpp \
+    settingsform.cpp \
+    aboutdialog.cpp
 
 HEADERS  += migenmainwindow.h \
-    centralwidget.h
+    centralwidget.h \
+    settingsform.h \
+    aboutdialog.h
 
 FORMS    += migenmainwindow.ui \
-    centralwidget.ui
+    centralwidget.ui \
+    settingsform.ui \
+    aboutdialog.ui
 
 CONFIG += c++11
+
+DISTFILES += \
+    options.txt

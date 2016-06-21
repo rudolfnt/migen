@@ -1,0 +1,10 @@
+CSV folder path
+Name_col
+Date_col
+Time_col
+Entrance_col
+
+
+Shifts
+Working hours
+

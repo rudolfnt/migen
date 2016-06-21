@@ -1,6 +1,6 @@
 #include "migenmainwindow.h"
 #include "ui_migenmainwindow.h"
-
+#include "aboutdialog.h"
 
 
 #include <QtWidgets>
@@ -74,5 +74,6 @@ void MIGenMainWindow::settings()
 
 void MIGenMainWindow::about()
 {
-
+    AboutDialog d;
+    d.exec();
 }
