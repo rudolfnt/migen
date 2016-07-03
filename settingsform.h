@@ -17,6 +17,9 @@ public:
 
 private:
     Ui::SettingsForm *ui;
+
+    void init();
+    void loadFile();
 };
 
 #endif // SETTINGSFORM_H

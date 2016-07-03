@@ -1,6 +1,9 @@
 #ifndef CENTRALWIDGET_H
 #define CENTRALWIDGET_H
 
+class SettingsForm;
+class AboutDialog;
+
 #include <QWidget>
 
 namespace Ui {
@@ -17,6 +20,11 @@ public:
 
 private:
     Ui::CentralWidget *ui;
+
+    SettingsForm * settingsForm;
+    AboutDialog * aboutDialog;
+
+    void init();
 };
 
 #endif // CENTRALWIDGET_H
